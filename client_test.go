@@ -8,11 +8,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/auth"
-	"github.com/bluenviron/gortsplib/v3/pkg/base"
-	"github.com/bluenviron/gortsplib/v3/pkg/conn"
-	"github.com/bluenviron/gortsplib/v3/pkg/media"
-	"github.com/bluenviron/gortsplib/v3/pkg/url"
+	"github.com/inchtime/gortsplib/pkg/auth"
+	"github.com/inchtime/gortsplib/pkg/base"
+	"github.com/inchtime/gortsplib/pkg/conn"
+	"github.com/inchtime/gortsplib/pkg/media"
+	"github.com/inchtime/gortsplib/pkg/url"
 )
 
 func mustParseURL(s string) *url.URL {

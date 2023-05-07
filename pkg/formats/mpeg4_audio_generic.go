@@ -8,8 +8,8 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/formats/rtpmpeg4audio"
 	"github.com/bluenviron/mediacommon/pkg/codecs/mpeg4audio"
+	"github.com/inchtime/gortsplib/pkg/formats/rtpmpeg4audio"
 )
 
 // MPEG4Audio is an alias for MPEG4AudioGeneric.

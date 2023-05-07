@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/bluenviron/gortsplib/v3"
-	"github.com/bluenviron/gortsplib/v3/pkg/base"
+	"github.com/inchtime/gortsplib"
+	"github.com/inchtime/gortsplib/pkg/base"
 )
 
 type server struct {

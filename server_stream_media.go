@@ -6,8 +6,8 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/media"
-	"github.com/bluenviron/gortsplib/v3/pkg/rtcpsender"
+	"github.com/inchtime/gortsplib/pkg/media"
+	"github.com/inchtime/gortsplib/pkg/rtcpsender"
 )
 
 type serverStreamMedia struct {

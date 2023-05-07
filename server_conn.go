@@ -11,12 +11,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/base"
-	"github.com/bluenviron/gortsplib/v3/pkg/bytecounter"
-	"github.com/bluenviron/gortsplib/v3/pkg/conn"
-	"github.com/bluenviron/gortsplib/v3/pkg/liberrors"
-	"github.com/bluenviron/gortsplib/v3/pkg/media"
-	"github.com/bluenviron/gortsplib/v3/pkg/url"
+	"github.com/inchtime/gortsplib/pkg/base"
+	"github.com/inchtime/gortsplib/pkg/bytecounter"
+	"github.com/inchtime/gortsplib/pkg/conn"
+	"github.com/inchtime/gortsplib/pkg/liberrors"
+	"github.com/inchtime/gortsplib/pkg/media"
+	"github.com/inchtime/gortsplib/pkg/url"
 )
 
 func getSessionID(header base.Header) string {

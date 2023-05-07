@@ -7,11 +7,11 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/formats"
-	"github.com/bluenviron/gortsplib/v3/pkg/rtcpreceiver"
-	"github.com/bluenviron/gortsplib/v3/pkg/rtcpsender"
-	"github.com/bluenviron/gortsplib/v3/pkg/rtplossdetector"
-	"github.com/bluenviron/gortsplib/v3/pkg/rtpreorderer"
+	"github.com/inchtime/gortsplib/pkg/formats"
+	"github.com/inchtime/gortsplib/pkg/rtcpreceiver"
+	"github.com/inchtime/gortsplib/pkg/rtcpsender"
+	"github.com/inchtime/gortsplib/pkg/rtplossdetector"
+	"github.com/inchtime/gortsplib/pkg/rtpreorderer"
 )
 
 type clientFormat struct {

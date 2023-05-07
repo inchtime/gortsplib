@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/base"
+	"github.com/inchtime/gortsplib/pkg/base"
 )
 
 // AuthMethod is an authentication method.

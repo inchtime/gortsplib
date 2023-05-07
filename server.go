@@ -11,8 +11,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/base"
-	"github.com/bluenviron/gortsplib/v3/pkg/liberrors"
+	"github.com/inchtime/gortsplib/pkg/base"
+	"github.com/inchtime/gortsplib/pkg/liberrors"
 )
 
 func extractPort(address string) (int, error) {

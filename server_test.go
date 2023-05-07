@@ -7,11 +7,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/auth"
-	"github.com/bluenviron/gortsplib/v3/pkg/base"
-	"github.com/bluenviron/gortsplib/v3/pkg/conn"
-	"github.com/bluenviron/gortsplib/v3/pkg/headers"
-	"github.com/bluenviron/gortsplib/v3/pkg/media"
+	"github.com/inchtime/gortsplib/pkg/auth"
+	"github.com/inchtime/gortsplib/pkg/base"
+	"github.com/inchtime/gortsplib/pkg/conn"
+	"github.com/inchtime/gortsplib/pkg/headers"
+	"github.com/inchtime/gortsplib/pkg/media"
 )
 
 var serverCert = []byte(`-----BEGIN CERTIFICATE-----

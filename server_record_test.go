@@ -13,12 +13,12 @@ import (
 	psdp "github.com/pion/sdp/v3"
 	"github.com/stretchr/testify/require"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/base"
-	"github.com/bluenviron/gortsplib/v3/pkg/conn"
-	"github.com/bluenviron/gortsplib/v3/pkg/formats"
-	"github.com/bluenviron/gortsplib/v3/pkg/headers"
-	"github.com/bluenviron/gortsplib/v3/pkg/media"
-	"github.com/bluenviron/gortsplib/v3/pkg/sdp"
+	"github.com/inchtime/gortsplib/pkg/base"
+	"github.com/inchtime/gortsplib/pkg/conn"
+	"github.com/inchtime/gortsplib/pkg/formats"
+	"github.com/inchtime/gortsplib/pkg/headers"
+	"github.com/inchtime/gortsplib/pkg/media"
+	"github.com/inchtime/gortsplib/pkg/sdp"
 )
 
 func doAnnounce(t *testing.T, conn *conn.Conn, u string, medias media.Medias) {

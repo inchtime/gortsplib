@@ -8,7 +8,7 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/formats/rtpmpeg4video"
+	"github.com/inchtime/gortsplib/pkg/formats/rtpmpeg4video"
 )
 
 // MPEG4Video is an alias for MPEG4VideoES.

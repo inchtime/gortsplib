@@ -3,7 +3,7 @@ package formats
 import (
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/formats/rtpsimpleaudio"
+	"github.com/inchtime/gortsplib/pkg/formats/rtpsimpleaudio"
 )
 
 // G722 is a RTP format that uses the G722 codec.

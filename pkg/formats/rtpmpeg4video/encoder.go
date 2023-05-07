@@ -6,7 +6,7 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/rtptime"
+	"github.com/inchtime/gortsplib/pkg/rtptime"
 )
 
 const (

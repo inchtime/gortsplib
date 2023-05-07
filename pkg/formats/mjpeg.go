@@ -3,7 +3,7 @@ package formats //nolint:dupl
 import (
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/formats/rtpmjpeg"
+	"github.com/inchtime/gortsplib/pkg/formats/rtpmjpeg"
 )
 
 // MJPEG is a RTP format that uses the Motion-JPEG codec.

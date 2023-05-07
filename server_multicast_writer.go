@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/ringbuffer"
+	"github.com/inchtime/gortsplib/pkg/ringbuffer"
 )
 
 type typeAndPayload struct {

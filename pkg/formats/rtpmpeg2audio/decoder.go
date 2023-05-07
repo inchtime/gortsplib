@@ -8,7 +8,7 @@ import (
 	"github.com/bluenviron/mediacommon/pkg/codecs/mpeg2audio"
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/rtptime"
+	"github.com/inchtime/gortsplib/pkg/rtptime"
 )
 
 // ErrMorePacketsNeeded is returned when more packets are needed.

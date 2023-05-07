@@ -4,7 +4,7 @@
 [![Lint](https://github.com/bluenviron/gortsplib/workflows/lint/badge.svg)](https://github.com/bluenviron/gortsplib/actions?query=workflow:lint)
 [![Go Report Card](https://goreportcard.com/badge/github.com/bluenviron/gortsplib)](https://goreportcard.com/report/github.com/bluenviron/gortsplib)
 [![CodeCov](https://codecov.io/gh/bluenviron/gortsplib/branch/main/graph/badge.svg)](https://app.codecov.io/gh/bluenviron/gortsplib/branch/main)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/bluenviron/gortsplib/v3)](https://pkg.go.dev/github.com/bluenviron/gortsplib/v3#pkg-index)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/inchtime/gortsplib)](https://pkg.go.dev/github.com/inchtime/gortsplib#pkg-index)
 
 RTSP 1.0 client and server library for the Go programming language, written for [MediaMTX](https://github.com/aler9/mediamtx).
 
@@ -93,7 +93,7 @@ Features:
 
 ## API Documentation
 
-https://pkg.go.dev/github.com/bluenviron/gortsplib/v3#pkg-index
+https://pkg.go.dev/github.com/inchtime/gortsplib#pkg-index
 
 ## Standards
 

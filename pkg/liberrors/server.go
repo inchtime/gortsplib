@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/base"
-	"github.com/bluenviron/gortsplib/v3/pkg/headers"
+	"github.com/inchtime/gortsplib/pkg/base"
+	"github.com/inchtime/gortsplib/pkg/headers"
 )
 
 // ErrServerTerminated is an error that can be returned by a server.

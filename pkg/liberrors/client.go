@@ -3,7 +3,7 @@ package liberrors
 import (
 	"fmt"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/base"
+	"github.com/inchtime/gortsplib/pkg/base"
 )
 
 // ErrClientTerminated is an error that can be returned by a client.

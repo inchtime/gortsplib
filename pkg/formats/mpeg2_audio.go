@@ -3,7 +3,7 @@ package formats //nolint:dupl
 import (
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v3/pkg/formats/rtpmpeg2audio"
+	"github.com/inchtime/gortsplib/pkg/formats/rtpmpeg2audio"
 )
 
 // MPEG2Audio is a RTP format that uses a MPEG-1 or MPEG-2 Audio codec.

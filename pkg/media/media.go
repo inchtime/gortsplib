@@ -140,6 +140,11 @@ func (m *Media) unmarshal(md *psdp.MediaDescription) error {
 						payloadType = attr.Value[:i]
 						break
 					}
+					i = strings.Index(attr.Value, " MERCURY/90000")
+					if i >= 0 {
+						payloadType = attr.Value[:i]
+						break
+					}
 				}
 			}
 		}

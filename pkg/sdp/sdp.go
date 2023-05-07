@@ -406,7 +406,7 @@ func (s *SessionDescription) unmarshalMediaDescription(value string) error {
 
 	newMediaDesc := &psdp.MediaDescription{}
 
-	if fields[0] == "application/TP-LINK" {
+	if fields[0] == "application/TP-LINK" || fields[0] == "application/MERCURY" {
 		fields[0] = "application"
 	}
 

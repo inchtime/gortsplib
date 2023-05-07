@@ -19,7 +19,7 @@ func main() {
 	c := gortsplib.Client{}
 
 	// parse URL
-	u, err := url.Parse("rtsp://localhost:8554/mystream")
+	u, err := url.Parse("rtsp://admin:zzxy123456@192.168.0.60:554/stream1")
 	if err != nil {
 		panic(err)
 	}
